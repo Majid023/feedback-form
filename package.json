@@ -1,0 +1,25 @@
+{
+  "name": "feedback-form",
+  "version": "1.0.0",
+  "description": "feedback form",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,css,ejs,json app/app.js --watch app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Majid023/feedback-form.git"
+  },
+  "author": "Majid Ansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Majid023/feedback-form/issues"
+  },
+  "homepage": "https://github.com/Majid023/feedback-form#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.1",
+    "reload": "^2.3.0"
+  }
+}
