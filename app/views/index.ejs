@@ -2,13 +2,16 @@
 <html>
     <head>
         <% include template/head.ejs %>
+        <% include template/javascript.ejs %>
     </head>
     <body>
-        
+        <div class="container-fluid">
+            <form action="" method="">
+            <lable for="userName">name : </lable><input id="userName" type="text" size="50px"name="userName" placeholder="userName"/>
+            </form>
+        </div>
 
 
-
-    <script src="/reload/reload.js"> </script>
-    <% include template/javascript.ejs %>
+        <script src="/reload/reload.js"> </script>
     </body>
 </html>
