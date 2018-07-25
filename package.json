@@ -2,7 +2,7 @@
   "name": "feedback-form",
   "version": "1.0.0",
   "description": "feedback form",
-  "main": "index.js",
+  "main": "app/app.js",
   "scripts": {
     "start": "nodemon -e js,css,ejs,json app/app.js --watch app"
   },
